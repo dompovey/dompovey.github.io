@@ -8,7 +8,7 @@ h1 {
 }
 
 p.big {
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     font-size: 80%;
     line-height: 200%;
 }
@@ -16,6 +16,12 @@ p.big {
 p.small {
     letter-spacing: 5px;
     font-size: 60%;
+    line-height: 200%;
+}
+
+p.vsmall {
+    letter-spacing: 4px;
+    font-size: 50%;
     line-height: 200%;
 }
 
