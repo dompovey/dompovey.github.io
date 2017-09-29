@@ -1,0 +1,26 @@
+.white {
+  color: white;
+}
+
+h1 {
+  letter-spacing: 10px;
+  font-size: 400%
+}
+
+p.big {
+    letter-spacing: 5px;
+    font-size: 80%;
+    line-height: 200%;
+}
+
+p.small {
+    letter-spacing: 5px;
+    font-size: 60%;
+    line-height: 200%;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Josefin Sans';font-size: 18px;letter-spacing: 2px;
+}
+
