@@ -1,32 +1,56 @@
-.white {
-  color: white;
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  background-image: url("dompovey.png");
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(15%, -50%);
+  color: black;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: left;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: black;
 }
 
 h1 {
-  letter-spacing: 10px;
-  font-size: 400%
+    padding: 0px;
+    margin: 0px;
+  letter-spacing: 12px;
+  font-size: 300%
 }
 
-p.big {
-    letter-spacing: 6px;
-    font-size: 80%;
-    line-height: 200%;
-}
-
-p.small {
+p {
     letter-spacing: 5px;
-    font-size: 60%;
-    line-height: 200%;
-}
-
-p.vsmall {
-    letter-spacing: 4px;
-    font-size: 50%;
-    line-height: 200%;
+    font-size: 80%;
+    line-height: 150%;
 }
 
 body {
   background-color: #000;
-  font-family: 'Josefin Sans';font-size: 18px;letter-spacing: 2px;
+  font-family: 'Raleway';font-size: 18px;letter-spacing: 2px;
 }
-
