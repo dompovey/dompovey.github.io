@@ -1,56 +1,62 @@
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-.hero-image {
-  background-image: url("dompovey.github.io/dompovey.jpg");
-  height: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: left;
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translate(15%, -50%);
+body {
+  background-color: white;
+  font-family: 'Raleway';font-size: 18px;letter-spacing: 2px;
   color: black;
+  text-transform: uppercase;
 }
 
-.hero-text button {
+h1 {
+  font-size:5vw;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+h4 {
+  font-size:2vw;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+}
+
+p {
+  font-size: 1.5vw;
+  letter-spacing: 0.3em;
+  margin-bottom: 0rem;
+}
+
+html,body, #hero {
+  height: 100%;
+}
+
+#hero {
+  background-image: url(dompovey.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 45%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.row {
+padding-left: 5%;
+}
+
+#hero button {
+  font-size: 1.4vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   border: none;
   outline: 0;
   display: inline-block;
-  padding: 10px 25px;
+  padding: 0.6em 2em;
   color: black;
   background-color: #ddd;
   text-align: left;
   cursor: pointer;
 }
 
-.hero-text button:hover {
+#hero button:hover {
   background-color: #555;
-  color: black;
-}
-
-h1 {
-    padding: 0px;
-    margin: 0px;
-  letter-spacing: 12px;
-  font-size: 300%
-}
-
-p {
-    letter-spacing: 5px;
-    font-size: 80%;
-    line-height: 150%;
-}
-
-body {
-  background-color: #fff;
-  font-family: 'Raleway';font-size: 18px;letter-spacing: 2px;
+  color: white;
 }
